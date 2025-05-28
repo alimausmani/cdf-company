@@ -1,13 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="table.css">
     <title>Table</title>
+    <style>
+        td {
+            text-align: right;
+            width: 33%;
+        }
+
+
+        td,
+        th,
+        table {
+            border: 1px solid;
+            border-collapse: collapse;
+        }
+
+        th {
+            text-align: left;
+        }
+    </style>
 </head>
+
 <body>
-    <table > 
+    <table>
         <thead>
             <tr>
                 <p>Purchase Order</p>
@@ -18,7 +37,7 @@
         </thead>
         <tbody>
             <tr>
-                
+
                 <td>07-16-2018</td>
                 <td>523402</td>
                 <td>54</td>
@@ -26,4 +45,5 @@
         </tbody>
     </table>
 </body>
+
 </html>

@@ -1,0 +1,16 @@
+
+
+td{
+    text-align: right;
+    width: 33%;
+}
+
+
+td,th, table{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+th{
+    text-align: left;
+}
